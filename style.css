@@ -30,39 +30,41 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -60%); }
+    body section article img {
+      position: absolute; }
     body section .town .circle {
-      position: absolute;
       left: 50%;
       bottom: 100px;
-      margin-left: -240px; }
+      margin-left: -240px;
+      animation-name: rotation;
+      animation-duration: 5s; }
     body section .town .night {
-      position: absolute;
       left: 40px;
       bottom: 0; }
     body section .town .day {
-      position: absolute;
       left: 40px;
       bottom: 0; }
     body section .people .man {
-      position: absolute;
       left: 0;
       bottom: 0; }
     body section .people .family {
-      position: absolute;
       left: 0;
       bottom: 0; }
     body section .sky .cloud1 {
-      position: absolute;
       top: -30px;
       left: 10%; }
     body section .sky .cloud2 {
-      position: absolute;
       top: 20px;
       left: 0; }
     body section .sky .sun {
-      position: absolute;
       top: -150px;
       left: 50%;
       margin-left: -100px; }
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg); }
+  1100% {
+    transform: rotate(360deg); } }
 
 /*# sourceMappingURL=style.css.map */
