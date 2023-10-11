@@ -19,7 +19,7 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 150%);
+    transform: translate(-50%, 200%);
     font: 90px/1 'Poiret one';
     color: white;
     text-align: center; }
@@ -29,6 +29,40 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -60%); }
+    body section .town .circle {
+      position: absolute;
+      left: 50%;
+      bottom: 100px;
+      margin-left: -240px; }
+    body section .town .night {
+      position: absolute;
+      left: 40px;
+      bottom: 0; }
+    body section .town .day {
+      position: absolute;
+      left: 40px;
+      bottom: 0; }
+    body section .people .man {
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+    body section .people .family {
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+    body section .sky .cloud1 {
+      position: absolute;
+      top: -30px;
+      left: 10%; }
+    body section .sky .cloud2 {
+      position: absolute;
+      top: 20px;
+      left: 0; }
+    body section .sky .sun {
+      position: absolute;
+      top: -150px;
+      left: 50%;
+      margin-left: -100px; }
 
 /*# sourceMappingURL=style.css.map */
