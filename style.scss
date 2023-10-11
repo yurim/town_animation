@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 ul,ol,li { list-style: none; }
 a { text-decoration: none; }
 
-main { width: 100%; height: 100vh; background: lightcyan;
-  section { border: 10px solid blue; display: flex; justify-content: center;
-    article { width: 100px; height: 100px; background: aqua; border: 1px solid #000; }
+body { width: 100%; height: 100vh; background: #fcd2e2;
+  h1 { width: 1000px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, 150%);
+    font:90px/1 'Poiret one'; color: white; text-align: center;
   }
+  section { width: 1000px; height: 400px;position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+
+ }
 }
