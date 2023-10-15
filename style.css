@@ -45,16 +45,20 @@ body {
       bottom: 0; }
     body section .people .man {
       left: 0;
-      bottom: 0; }
+      bottom: 0;
+      animation: flow 7s linear infinite; }
     body section .people .family {
       left: 0;
-      bottom: 0; }
+      bottom: 0;
+      animation: flow 20s linear infinite; }
     body section .sky .cloud1 {
       top: -30px;
-      left: 10%; }
+      left: 10%;
+      animation: flow 10s linear infinite; }
     body section .sky .cloud2 {
       top: 20px;
-      left: 0; }
+      left: 0;
+      animation: flow 15s linear infinite; }
     body section .sky .sun {
       top: -150px;
       left: 50%;
@@ -65,10 +69,16 @@ body {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
-@keyframes move {
+@keyframes flow {
   0% {
+    left: 0;
     opacity: 0; }
+  10% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
   100% {
+    left: 90%;
     opacity: 0; } }
 
 /*# sourceMappingURL=style.css.map */
